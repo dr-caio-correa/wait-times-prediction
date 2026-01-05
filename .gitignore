@@ -1,27 +1,17 @@
-# ----------------------------
-# Data files
-# ----------------------------
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+# Raw and processed data
+data/raw/
+data/processed/
 
-# ----------------------------
-# Model artifacts
-# ----------------------------
-models/*.joblib
+# Models
+models/
 
-# ----------------------------
-# Python / Jupyter
-# ----------------------------
-__pycache__/
-*.pyc
+# Jupyter
 .ipynb_checkpoints/
 
-# ----------------------------
-# OS / Editor
-# ----------------------------
+# Python
+__pycache__/
+*.pyc
+
+# OS files
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
